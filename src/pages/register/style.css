@@ -84,3 +84,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.go-login {
+  text-align: center;
+}
+
+.go-login p {
+  font-size: 14px;
+}

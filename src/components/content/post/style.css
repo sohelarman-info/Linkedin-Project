@@ -1,0 +1,140 @@
+.new-post-area {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 6px;
+}
+
+.new-post-title {
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.new-post-title h4 {
+  font-size: 16px;
+  color: #181818;
+  font-family: var(--Barlow);
+  font-weight: var(--semibold);
+  text-transform: uppercase;
+  padding-bottom: 17px;
+}
+
+.post-field {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-area h2 {
+  color: rgba(24, 24, 24, 0.2);
+  font-family: var(--Barlow);
+  font-weight: var(--regular);
+  font-size: 24px;
+}
+
+.button-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.files-icon {
+  margin: 0 20px;
+}
+
+.files-icon svg {
+  height: 50px;
+  width: 50px;
+  fill: rgba(0, 0, 0, 0.15);
+}
+
+.post-button {
+  width: 50px;
+  height: 50px;
+  background-color: #0077b5;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.post-button svg {
+  height: 24px;
+  width: 24px;
+  stroke: #fff;
+}
+
+.post-title {
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 12px;
+}
+
+.post-modal-posted {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.post-modal-posted-pic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-modal-posted-name {
+  margin-left: 20px;
+}
+
+.post-modal-posted-name {
+  margin-left: 20px;
+}
+
+.post-modal-posted-name h4 {
+  font-family: var(--Barlow);
+  font-weight: var(--bold);
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #181818;
+}
+
+.post-modal-posted-name p {
+  font-family: var(--Barlow);
+  font-weight: var(--regular);
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #181818;
+}
+
+.post-textarea textarea {
+  border: none;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
+  margin-top: 20px;
+}
+
+.post-textarea textarea:focus-visible {
+  box-shadow: none !important;
+}
+
+.post-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-photo {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.add-photo svg {
+  width: 30px;
+  height: 30px;
+  fill: rgba(0, 0, 0, 0.4);
+}

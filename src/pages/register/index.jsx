@@ -24,6 +24,7 @@ import "./style.css";
 import { ToastContainer, toast } from "react-toastify";
 import PulseLoader from "react-spinners/PulseLoader";
 import { signupValidate } from "../validation/validation";
+import { Link } from "react-router-dom";
 
 const Registration = () => {
   const auth = getAuth();
@@ -60,7 +61,6 @@ const Registration = () => {
               values.email,
               values.password
             ).then(({ user }) => {
-              console.log(user);
               updateProfile(auth.currentUser, {
                 displayName: values.name,
               }).then(() => {
@@ -176,6 +176,11 @@ const Registration = () => {
             </form>
           )}
         </Formik>
+        <div className="go-login">
+          <p>
+            Already have an account ? <Link to="/login">Sign In</Link>
+          </p>
+        </div>
       </Box>
     </Flex>
   );
