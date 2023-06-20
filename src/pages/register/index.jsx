@@ -63,12 +63,18 @@ const Registration = () => {
             ).then(({ user }) => {
               updateProfile(auth.currentUser, {
                 displayName: values.name,
+                photoURL: "/profile/avatar.jpg",
               }).then(() => {
                 sendEmailVerification(auth.currentUser).then(() => {
                   set(ref(db, "users/" + user.uid), {
                     uid: user.uid,
                     username: user.displayName,
                     email: user.email,
+                    photoURL: user.photoURL,
+                    coverURL: "/cover/cover.png",
+                    title: "New Member",
+                    description: "Empty",
+                    date: `${new Date()}`,
                   }).then(() => {
                     toast.success(
                       "Registration Completed! Please verify your Email",

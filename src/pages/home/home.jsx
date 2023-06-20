@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/header/navbar/navbar";
+import Navbar from "../../components/header/navbar";
 import { Container, Grid, GridItem } from "@chakra-ui/react";
 import "./style.css";
 import NewPost from "../../components/content/post";

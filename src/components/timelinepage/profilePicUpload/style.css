@@ -1,0 +1,30 @@
+.profile-pic-upload-area {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic-upload-icon {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-pic-upload-icon svg {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.profile-pic-upload-area .upload-btn button {
+  margin-top: 30px !important;
+  width: 100% !important;
+}

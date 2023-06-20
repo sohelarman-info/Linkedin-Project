@@ -56,6 +56,7 @@ const Login = () => {
             // alert(JSON.stringify(values, null, 2));
             signInWithEmailAndPassword(auth, values.email, values.password)
               .then(({ user }) => {
+                console.log(user);
                 if (auth.currentUser.emailVerified == true) {
                   resetForm({ values: "" });
                   setLoader(false);
