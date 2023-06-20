@@ -1,0 +1,82 @@
+.navbar-area {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  width: 70%;
+}
+.nav-right {
+  width: 30%;
+}
+
+.logo-area {
+  margin-left: 30px;
+}
+
+.logo-area a {
+  display: inline-block;
+}
+
+.logo-area a svg {
+  width: 50px;
+  height: 50px;
+  fill: #0077b5;
+}
+
+.profile-area {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  margin-left: 30px;
+  width: 100px;
+}
+
+.profile-pic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name h6 {
+  font-family: Barlow;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: var(--semibold);
+  color: #181818;
+}
+
+.profile-name h6 a:hover {
+  color: #181818;
+}
+
+.profile-name h6 span {
+  font-weight: var(--regular);
+  color: rgba(24, 24, 24, 0.2);
+  margin-left: 24px;
+}
+
+.logout-btn {
+  margin-left: 30px;
+}
+
+.logout {
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.logout:hover {
+  margin-left: 10px;
+  transform: scale(1.2);
+}
+
+.logout svg {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,94 @@
+.registration-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.registration-logo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-logo svg {
+  width: 46px;
+  height: 46px;
+}
+
+.registration-logo svg path {
+  fill: var(--main-color);
+}
+
+.registration-title {
+  margin-top: 30px;
+}
+
+.registration-title h2 {
+  font-family: var(--nunito);
+  font-weight: var(--bold);
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #11175d;
+}
+
+.registration-title p {
+  font-family: var(--nunito);
+  font-weight: var(--regular);
+  font-size: 14px;
+  color: rgba(17, 23, 93, 0.5);
+  margin-top: 10px;
+}
+
+.registration-round-box {
+  width: 450px;
+}
+
+.register-button {
+  background-color: var(--main-color) !important;
+  color: #fff;
+}
+
+.register-button:focus-visible {
+  outline: 0 !important;
+  box-shadow: 0 !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.register-button:focus {
+  outline: 0 !important;
+  box-shadow: 0 !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.name-field {
+  width: 100% !important;
+}
+
+.registration-password {
+  position: relative;
+}
+
+.password-field {
+  padding-right: 40px !important;
+}
+
+.passshow {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.go-login {
+  text-align: center;
+}
+
+.go-login p {
+  font-size: 14px;
+}
