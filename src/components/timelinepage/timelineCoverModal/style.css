@@ -1,0 +1,23 @@
+.cover-pic-upload-area {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-pic-upload-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.cover-pic-upload-icon svg {
+  width: 100px;
+  height: 100px;
+}
